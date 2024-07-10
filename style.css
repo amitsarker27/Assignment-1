@@ -1,17 +1,15 @@
-/* importing font */
+/*font importing*/
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 body{
 font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
 }
-/* header{
-    margin: 0 auto; }*/
  html {
         scroll-behavior: smooth;
     }
 
-.no-use{
+.header-1{
 
     display: flex;
     justify-content:space-between;
@@ -22,7 +20,7 @@ font-family: "Azeret Mono", monospace;
     margin: 0 auto;
     
 }
-.no-use p{
+.header-1 p{
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 20px;
@@ -31,13 +29,13 @@ line-height: 20px;
 letter-spacing: 0%;
 text-align: left;
 }
-.no-use button{
+.header-1 button{
     text-align: center;
     padding: 15px;
     border-radius: 5px;
 }
 /*first section  */
-.first{
+.f1{
     margin-top: 0px;
     max-width: 1440px;
     max-height: 652px;
@@ -51,10 +49,9 @@ text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-bottom: 70px; */
     margin: 0 auto;
 }
-.title-1{
+.t-1{
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 48px;
@@ -64,7 +61,7 @@ text-align: left;
   text-align: center;
   margin-bottom: 20px;
 }
-.para-1{
+.p-1{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -106,7 +103,7 @@ padding: 20px;
     flex-direction: column;
     align-items: center;
 }
-.title-2{
+.t-2{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -115,7 +112,7 @@ padding: 20px;
     letter-spacing: 0%;
     text-align: center;
 }
-.para-2{
+.p-2{
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -124,7 +121,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 }
-.subsection-1{
+.subs-1{
     max-width: 946px;
     max-height: 336px;
     /* border: solid 2px; */
@@ -136,7 +133,7 @@ text-align: center;
     gap: 25px;
     margin-bottom: 20px;
 }
-.subsection-1 h3{
+.subs-1 h3{
 color: rgba(13, 19, 33, 0.7);
 font-family: Azeret Mono;
 font-size: 24px;
@@ -145,7 +142,7 @@ line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
 }
-.subsection-1 p{
+.subs-1 p{
  color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -193,11 +190,13 @@ text-align: center;
     text-align: center;
     font-weight: 800;
 }
-.video iframe{
+.youtube{
     /* margin: 0 auto; */
     margin-left:18px;
     padding: 10px;
+    border-radius: 2px;
     border-radius: 5px;
+   
 }
 .forth{
     /* border :solid 2px; */
@@ -409,7 +408,7 @@ text-align: center;
     color: white;
     background-color:blue;
 }
-.footer-1{
+.f-1{
     max-width: 1140px;
     display: flex;
     flex-direction: row;
